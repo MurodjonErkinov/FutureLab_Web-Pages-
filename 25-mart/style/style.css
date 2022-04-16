@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.home{
+    background-image: url(../img/home.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    height: 8vh;
+    /* border: red solid 1px;  */
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(142, 187, 51);
+    color: white;
+}
+.nav-left{
+    display: flex;
+    margin-left: 35px;
+    font-size: 19px;    
+}
+.nav-left :nth-child(3){
+    margin-left: 25px;
+}
+.nav-left p{
+    margin-left: 4px;
+}
+.nav-right{
+    margin-right: 35px;
+}
+.nav-right a i{
+    color: white;
+    margin: 0 10px;
+    font-size: 25px;
+}
+.nav-right a i:hover{
+    font-size: 29px;
+    color: rgb(21, 110, 226);
+    transition: 0.5s;
+}
+.menu{
+    height: 21vh;
+    align-items: center;
+    display: flex;
+
+}
+.img-rgba{
+    background: #000;
+    opacity: .6;
+    width: 100%;
+    height: 77vh;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+}
+.menu-list ul{
+    display: flex;
+    text-decoration: none;
+}
+.menu-list ul li a{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 6px 0;
+}     
+.menu-list ul li a:hover{
+    border-bottom: 3px solid greenyellow;
+    color: greenyellow;
+}     
+.logo h1:hover{
+    font-size: 40px;
+    color: greenyellow;
+    transition: 0.4s;
+}     
+.home-main{
+    color: white;
+}
+.home-margin{
+    width: 80%;
+    margin: 0 auto;
+}
+.home-margin h1{
+    text-transform: uppercase;
+}
+.home-margin p{
+    margin: 20px 0;
+}
+.home-margin :nth-child(2){
+    margin-top: 20px;
+}
+.home-margin :nth-child(1){
+    color:greenyellow ;
+}
+.home-margin button {
+    color: #fff;
+    background-color:transparent;
+    padding: 10px 17px;
+    border: yellowgreen 3px solid;
+    border-radius: 10px;
+}
+.home-margin button a{
+    text-decoration: none;
+}
+.home-footer {
+    color: #fff;
+    height: 15vh ;
+    width: 100%;
+    display: flex;
+    background-color: rgb(142, 187, 51);
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    margin-left: 35px;
+}
+.home-footer button{
+    margin-right: 18px;
+    background-color:transparent;
+    padding: 10px 17px;
+    border: #fff solid;
+    border-radius: 10px;
+}
+.home-footer button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.financial-services{
+    height: 100vh;
+    width: 100%;
+}
+.fin-ser-text{
+    text-align: center;line-height: 34px;
+    padding:40px 0;
+    margin-top: 60px ;
+}
+.fin-ser-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.card1{
+    height: 495px;
+    width: 380px;
+    background-color: rgb(221, 219, 219);
+    border-radius: 5px;
+}
+.card1 img{
+    height:280px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-text{
+    width: 90%;
+    margin:  0 auto;
+}
+.card1 p{
+    line-height: 27px;
+    padding: 20px 0;
+}
+.card1 h3{
+    padding-top: 12px;
+}
+.card-text button{
+    background-color: rgb(105, 231, 46);
+    border-radius: 15px;
+    padding: 10px 14px;
+    border: none;
+}
+.card-text button a{
+    color: #fff;
+    text-decoration: none;
+}
+span{
+    color: yellowgreen;
+}
+.solutions{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../img/fin-ser3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    color: white;
+
+}
+.solutions .s-n-background .container{
+    display: flex;
+    justify-content: space-between;
+}
+.s-n-background{
+    height: 100%;
+    width: 100%;
+    background: rgb(54, 50, 50);
+    opacity: .8;
+    z-index: 1;
+    display: flex;
+}
+.sn-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sn-left :nth-child(3){
+    margin: 20px 0;
+}
+.sn-left p{
+    line-height: 24px;
+    font-size: 20px;
+}
+.sn-left button{
+    background-color: rgb(105, 231, 46);
+    border-radius: 15px;
+    padding: 10px 14px;
+    border: none;
+    margin-top: 30px;
+}
+.sn-left button a{
+    text-decoration: none;
+    color: white;
+}
+.sn-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sn-cards{
+    z-index: 1;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sn-top-cards{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.sn-bottom-cards{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sn-card1{
+    width: 44%;
+    height: 95%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+.sn-card2{
+    width: 44%;
+    height: 95%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+.sn-card3{
+    width: 44%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.sn-card4{
+    width: 44%;
+    height: 100%;   
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
